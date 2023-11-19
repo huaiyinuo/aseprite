@@ -16,7 +16,7 @@ enable_ui: on
 steps:
 - uses: actions/checkout@v3
 with:
-submodules: 'recursive'
+submodules: recursive
 - name: ccache
 uses: hendrikmuhs/ccache-action@v1
 if: runner.os == 'Linux'
